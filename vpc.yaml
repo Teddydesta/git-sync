@@ -8,4 +8,4 @@ Resources:
     Type: AWS::EC2::Subnet
     Properties:
          VpcId: !Ref VPC
-         C: 10.0.0.1/16
+         CidrRange: 10.0.0.1/16
